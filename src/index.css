@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+@media (max-width:600px) {
+  .links{
+    display: none;
+  }
+  .sticker{
+    display: none;
+  }
+  .masker{
+    padding-left: 20px;
+  }
+  .lp{
+    height: 80vh;
+  }
+  .lp-text{
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+  }
+  .mq1{
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+  }
+  .mq1 h1{
+    font-size: 15vh;
+    padding-top: 5vw;
+  }
+  .about{
+
+  }
+  .ab-1{
+    font-size: 6.5vw;
+    padding: 50px 20px;
+  }
+  .ab-2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px;
+  }
+  .ab-txt{
+    font-size: 8vw;
+    text-wrap: nowrap;
+  }
+  .ab-btn{
+    padding: 5px 10px;
+    margin: 10px 0;
+  }
+  .ab-img{
+    height: 35vh;
+    width: 100%;
+  }
+  .eyes{
+    height: 30vh;
+  }
+  .eye-white{
+    height: 25vw;
+    width: 25vw;
+  }
+  .eye-black{
+    height: 15vw;
+    width: 15vw;
+  }
+  .cards{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .fe-1c{
+    height: 40vh;
+    width: 90vw;
+  }
+  .fe-2c{
+    height: 40vh;
+    width: 90vw;
+  }
+  .cds{
+    padding: 0 5px;
+  }
+  .cds-1{
+    width: 97vw;
+    height: 30vh;
+  }
+  .c2{
+    height: 65vh;
+  }
+  .card{
+    width: 97vw;
+    height: 30vh;
+    margin-bottom: 10px;
+  }
+  .footer{
+    display: none;
+  }
+  
+}
